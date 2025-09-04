@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #085c2c;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  text-align: left;
+  font-weight: bold;
+  color: #555;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus, select:focus {
+  border: 1px solid #085c2c;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 10px 16px;
+  background: #085c2c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 'background 0.2s';
+}
+
+.btn:hover {
+  background: #085c2c;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn.secondary {
+  background: #ccc;
+  color: black;
+}
+
+.btn.secondary:hover {
+  background: #aaa;
+}
